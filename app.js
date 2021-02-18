@@ -28,4 +28,4 @@ app
   .use(chat.routes())
   .use(chat.allowedMethods())
 
-app.listen(5000);
+app.listen(process.env.PORT);
